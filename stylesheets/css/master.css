@@ -1,4 +1,4 @@
-/* Creates the Navbar */
+/* Styles the Navbar */
 
 nav {
   background-color: #a3dee3;
@@ -23,7 +23,7 @@ nav img {
   color: white;
 }
 
-/* Creates the Banner */
+/* Styles the Banner */
 
 .banner {
   background-image: url(../../images/park.jpg);
@@ -61,4 +61,36 @@ nav img {
   padding: 3px;
   margin: 10px;
   border: 3px solid #538ba4;
+}
+
+/* Styles the dog information section */
+
+.information {
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+}
+
+.information h4 {
+  margin: 10px;
+  font-weight: lighter;
+}
+
+.information p {
+  margin: 10px;
+  font-size: 14px;
+}
+
+.dog_information {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.dog2 {
+  border-radius: 100%;
+  border: 3px solid #538ba4;
+  height: 160px;
+  width: 160px;
 }
