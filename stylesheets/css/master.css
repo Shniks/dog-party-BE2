@@ -1,9 +1,26 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dog Party</title>
-    <link rel="stylesheet" href="./stylesheets/css/master.css">
-  </head>
-  </body>
-</html>
+/* Create the Navbar */
+
+nav {
+  background-color: #a3dee3;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav img {
+  height: 30px;
+  margin-left: 20px;
+}
+
+#main_nav {
+  margin-right: 30px;
+  width: 150px;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: white;
+}
+
+/* Create the Banner */
