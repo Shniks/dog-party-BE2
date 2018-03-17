@@ -1,4 +1,4 @@
-/* Create the Navbar */
+/* Creates the Navbar */
 
 nav {
   background-color: #a3dee3;
@@ -23,4 +23,42 @@ nav img {
   color: white;
 }
 
-/* Create the Banner */
+/* Creates the Banner */
+
+.banner {
+  background-image: url(../../images/park.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner h1 {
+  font-family: verdana;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+.dog1 {
+  border-radius: 100%;
+  border: 3px solid #538ba4;
+  height: 220px;
+  width: 220px;
+}
+
+.text1 {
+  align-items: center;
+  color: #538ba4;
+  font-size: 14px;
+  font-weight: lighter;
+  background-color: white;
+  padding: 3px;
+  margin: 10px;
+  border: 3px solid #538ba4;
+}
