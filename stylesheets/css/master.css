@@ -94,3 +94,35 @@ nav img {
   height: 160px;
   width: 160px;
 }
+
+/* Styles the Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  background-color: #538BA4;
+  color: #FFFFFF;
+}
+
+footer h5 {
+  font-weight: lighter;
+  font-size: 14px;
+  color: white;
+  margin-top: 10px;
+}
+
+footer img {
+  margin: 0px 20px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+footer a {
+  font-weight: lighter;
+  font-size: 13px;
+  color: white;
+  margin-bottom: 10px;
+}
